@@ -1,4 +1,6 @@
-# Speech Emotion Recognition API - IEMOCAP dataset with good accuracy for realtime use
+# Speech Emotion Recognition API - IEMOCAP dataset with good accuracy
+
+> Requires at least 1.5 gb memory to run fine
 
 This FastAPI application provides an endpoint for performing emotion recognition on audio files.
 
