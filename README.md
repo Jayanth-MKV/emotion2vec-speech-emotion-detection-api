@@ -29,3 +29,8 @@ This will start the server, and you can access the API at http://localhost:8000.
 
 ## Emotion Recognition Endpoint
 You can perform emotion recognition on audio files by sending a POST request to /emotion_recognition. Upload an audio file with the request, and the API will return the detected emotion and its confidence score.
+
+Example:
+```bash
+curl -X POST -F "audio_file=@/path/to/audio/file.wav" http://localhost:8000/emotion_recognition
+```
